@@ -21,38 +21,42 @@ document.addEventListener( "DOMContentLoaded",() => {
 
     let myAnimation = new hoverEffect({
         parent: document.querySelector(".background"),
-        intensity: 0.3,
+        intensity: 0.1,
+        easing: "power4.out",
         imagesRatio: 1080 / 1920,
         image1: `img/${bgImg[0]}`,
         image2: `img/${bgImg[1]}`,
-        displacementImage: "img/1.jpeg",
+        displacementImage: "img/7.jpeg",
         hover: false
     });
     let myAnimation2 = new hoverEffect({
         parent: document.querySelector(".background"),
-        intensity: 0.3,
+        intensity: 0.1,
+        easing: "power4.out",
         imagesRatio: 1080 / 1920,
         image1: `img/${bgImg[1]}`,
         image2: `img/${bgImg[2]}`,
-        displacementImage: "img/1.jpeg",
+        displacementImage: "img/7.jpeg",
         hover: false
     });
     let myAnimation3 = new hoverEffect({
         parent: document.querySelector(".background"),
-        intensity: 0.3,
+        intensity: 0.1,
+        easing: "power4.out",
         imagesRatio: 1080 / 1920,
         image1: `img/${bgImg[2]}`,
         image2: `img/${bgImg[3]}`,
-        displacementImage: "img/1.jpeg",
+        displacementImage: "img/7.jpeg",
         hover: false
     });
     let myAnimation4 = new hoverEffect({
         parent: document.querySelector(".background"),
-        intensity: 0.3,
+        intensity: 0.1,
+        easing: "power4.out",
         imagesRatio: 1080 / 1920,
         image1: `img/${bgImg[3]}`,
         image2: `img/${bgImg[0]}`,
-        displacementImage: "img/1.jpeg",
+        displacementImage: "img/7.jpeg",
         hover: false
     });
 
